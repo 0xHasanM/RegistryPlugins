@@ -24,7 +24,7 @@ namespace RegistryPlugin.UserAssist
 
         public List<string> KeyPaths => new List<string>(new[]
         {
-            @"Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\*\Count"
+            @"Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\"
         });
 
         public string ValueName => null;
